@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+body *{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.h h1{
+    top: 17%;
+    height: 10%;
+    text-align: center;
+    font-weight: normal;
+}
+.b1{
+    top: 30%;
+    width: 400px;
+    margin-left:-200px ;
+height: 50%;
+left: 50%;
+}
+.b1name,.bipsw{
+    height: 15%;
+}
+input{
+    font-size: 1.3rem;
+}
+.b1psw{
+    height: 15%;
+    top: 20%;
+}
+.login{
+top: 50%;
+height: 15%;
+background-color: #3578e9;
+}
+.register{
+    top: 70%;
+height: 15%;
+background-color: #ffeb73;
+}
+.login h2,.register h2{
+    text-align: center;
+    color: white;
+    margin: 10px 0 ;
+}

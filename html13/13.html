@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <STYLE TYPE="text/css" > 
+.redText {color: red;} 
+#pid {color: red;} 
+</STYLE > 
+<P id="redText" CLASS="redText" >11 </p > 
+<P id="pid" >22 </p > 
+<input type="button" onclick="test()" value=" test " />
+<script language="javascript" type="text/javascript" > 
+function test()
+{
+    var ss = document.styleSheets[0];
+    var rules = ss.rules?ss.rules:ss.cssRules
+    for(var i=0;i<rules.length;i++)
+    {
+        if(rules[i].selectorText=="#pid")
+        {
+            rules[i].style.color="yellow";
+            break;
+        }
+    }
+     
+     
+}
+</script> 
+</body>
+</html>

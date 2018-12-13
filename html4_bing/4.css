@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.t{
+height: 80px;
+width: 100%;
+
+}
+.t1{
+    position: absolute;
+    top:40px;
+    left: 55px;
+    height: 40px;
+    width: 35px;
+
+}
+.t2{
+    position: absolute;
+    left:110px;
+    top:15px;
+    height: 60px;
+    width: 640px;
+}
+.t21{position: absolute;
+    height: 30px;
+    width: 120px;
+}
+.b1,.b2{
+    height: 29px;
+    width: 58px;
+    background-color: #d8d8d8;
+    border-width: 1px 1px 0 1px;
+    border-color: #d8d8d8;
+    color:#333;
+    cursor: pointer;
+}
+.b2{
+    left:60px;
+
+}
+
+.b1:hover,.b2:hover{
+    background-color: #eee;
+    border-width: 1px 1px 0 1px;
+    border-color: #d8d8d8;
+    margin:0;
+}
+.b1:focus,.b2:focus{
+    background-color: #fff;
+    border-width: 1px 1px 0 1px;
+    border-color: #d8d8d8;
+    margin:0;
+}
+.t22{
+    position: absolute;
+    width: 638px;
+    height: 29px;
+    top: 30px;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #d8d8d8;
+}
+.t22 >input{
+height: 20px;
+top: 5px;
+width: 598px;
+left: 5px;
+border: 0;
+}
+.t222{position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 608px;
+    top: 0px;
+}
+.t222>img{
+    width: 30px;
+    height: 30px;
+}

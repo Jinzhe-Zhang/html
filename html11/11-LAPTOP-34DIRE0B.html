@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="./css/reset.css" />
+<title></title>
+</head>
+<body>
+<div id="div1"></div>
+<ul id="output"></ul>
+<script>
+function getNewDate(str){
+strArr = str.split('-');
+for(var i = 1; i<strArr.length; i++){
+if(parseInt(strArr[i])<10){
+strArr[i] = '0' + strArr[i];
+}
+}
+return strArr.join('-')
+}
+console.log(getNewDate('2017-4-5'));
+
+</script>
+</body>
+</html>
